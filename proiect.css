@@ -6,10 +6,19 @@ body{
 
 
 .nav_bar{
-    display:flex;
     
+  min-width: 20%;
+    display: flex;
+    
+    
+    justify-content: flex-end;
+
+
+
+
+
     width: 100%;
-    justify-content: end;
+   
     height: 45px;
     font-size: 13px;
 }
@@ -47,7 +56,7 @@ body{
     
    
     width:55px;
-    background:-moz-linear-gradient(top,#4387fd,#4683ea);
+    background-color: #4285f4;
     padding:0 12px;
     line-height: 25px;
     border-radius: 2px;
